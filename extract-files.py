@@ -66,7 +66,6 @@ blob_fixups: blob_fixups_user_type = {
     (
         'odm/lib64/libdisplaycolorfeature.so',
         'odm/lib64/libdisplayfossfeature_nature.so',
-        'vendor/bin/hw/vendor.qti.hardware.display.composer-service',
         'vendor/lib64/libdpps.so',
         'vendor/lib64/libsnapdragoncolor-manager.so',
     ): blob_fixup()

@@ -841,7 +841,6 @@ vendor/lib64/libpwirishal.so
 vendor/lib64/libpwirishalwrapper.so;MODULE_SUFFIX=_vendor
 
 # Display (SDM)
-vendor/bin/hw/vendor.qti.hardware.display.composer-service;DISABLE_DEPS;REQUIRED=vendor.qti.hardware.display.composer-service.rc,vendor.qti.hardware.display.composer-service.xml
 vendor/bin/init.qti.graphics.sh
 vendor/etc/init/init.qti.graphics.rc
 vendor/etc/clstc_config_library.xml
@@ -853,30 +852,23 @@ vendor/lib64/libclstc_tm.so
 vendor/lib64/libcolor-default.so
 vendor/lib64/libdigital-dimming.so
 vendor/lib64/libdisp-aba.so
-vendor/lib64/libdisplayconfig.qti.so
 vendor/lib64/libdisplayqos.so
 vendor/lib64/libdisplayskuutils.so
 vendor/lib64/libdpp_manager.so
 vendor/lib64/libdpps.so
 vendor/lib64/libgame_enhance.so
-vendor/lib64/libhistogram.so
 vendor/lib64/libhwcsensor.so
 vendor/lib64/libintervmipc.so
 vendor/lib64/libqdcm-algo.so
 vendor/lib64/libqdcm-json-mode-parser.so
 vendor/lib64/libqdcm-mode-parser.so
-vendor/lib64/libqdutils.so
 vendor/lib64/libqrtrclient.so
 vendor/lib64/libqseed3.so
 vendor/lib64/librcmask.so
-vendor/lib64/libsdedrm.so
 vendor/lib64/libsdm-color.so
 vendor/lib64/libsdm-colormgr-algo.so
 vendor/lib64/libsdm-disp-vndapis.so
-vendor/lib64/libsdmcore.so
-vendor/lib64/libsdmdal.so
 vendor/lib64/libsdmextension.so
-vendor/lib64/libsdmutils.so
 vendor/lib64/libsnapdragoncolor-manager.so
 vendor/lib64/libsnapdragoncolor-qdcm.so
 vendor/lib64/libtestutils.so
