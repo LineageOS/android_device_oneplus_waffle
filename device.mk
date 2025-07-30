@@ -27,6 +27,9 @@ PRODUCT_COPY_FILES += \
 
 $(call soong_config_set_bool,qtidisplay,legacy_cwb_config,true)
 
+# Fingerprint
+$(call soong_config_set_bool,qtidisplay,oplus_udfps,true)
+
 # Keymint
 PRODUCT_PACKAGES += \
     android.hardware.security.keymint3-service.strongbox.nxp \
