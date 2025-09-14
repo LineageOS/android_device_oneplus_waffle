@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0464d96e_f1476d87",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-14T18:22:15Z",
+      "side": 1,
+      "message": "It would make sense to drop this and squash into the big change, if you go ahead with it.",
+      "revId": "cdd04dcd1ed07265a729c07dd7fb7260bbcdc35b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
