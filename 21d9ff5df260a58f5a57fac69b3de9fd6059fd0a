@@ -52,6 +52,24 @@
       "parentUuid": "2944a589_487c2f27",
       "revId": "21d9ff5df260a58f5a57fac69b3de9fd6059fd0a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dcee3153_d9ac2273",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-10-11T14:49:25Z",
+      "side": 1,
+      "message": "Yes, only Horae changes in common, and I’m planning to ship Caihong in 23.0",
+      "parentUuid": "ae158354_5d0296c8",
+      "revId": "21d9ff5df260a58f5a57fac69b3de9fd6059fd0a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
