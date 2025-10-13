@@ -1,7 +1,10 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
 ## are from OnePlus 12 (CPH2581_15.0.0.863(EX01)).
 
-abl.img;AB
+# Exceptions:
+# abl.img: from OnePlus 12 (CPH2581_15.0.0.863(EX01))
+
+abl.img;AB|0c0d4266e4098e4a54389538040fc68508ee54f2
 aop.img;AB
 aop_config.img;AB
 bluetooth.img;AB
