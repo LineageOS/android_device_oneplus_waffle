@@ -66,7 +66,10 @@ lib_fixups: lib_fixups_user_type = {
 
 blob_fixups: blob_fixups_user_type = {
     'odm/etc/camera/CameraHWConfiguration.config': blob_fixup()
-        .regex_replace('SystemCamera =  0;  0;  0;  1;  0; 1;', 'SystemCamera =  0;  0;  0;  0;  0; 0;'),
+        .regex_replace('SystemCamera =  0;  0;  0;  1;  0; 1;', 'SystemCamera =  0;  0;  0;  0;  0; 0;')
+        # Disable face detection AE behaviour
+        .regex_replace(r'(enableSWfdForThirdCamUnit\s*=\s*)TRUE', r'\1FALSE')
+        .regex_replace(r'(fdSupport\s*=\s*)TRUE;', r'\1FALSE;'),
     (
         'odm/etc/libnfc-mtp-SN220.conf_22825',
         'odm/etc/libnfc-mtp-SN220.conf_22877'
