@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "91a832bd_2c7ba20e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-10-28T04:02:20Z",
+      "side": 1,
+      "message": "eSIM support is available only in EU and NA variants, as the same ro.boot.prjname values are used for non-Chinese variants. Therefore, we should handle this appropriately to exclude eSIM support in the IN variant.",
+      "revId": "682b524a0290a477d239f8f25185e57b0d7aab87",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
