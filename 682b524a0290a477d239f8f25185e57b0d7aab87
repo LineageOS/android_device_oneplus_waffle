@@ -16,6 +16,24 @@
       "message": "eSIM support is available only in EU and NA variants, as the same ro.boot.prjname values are used for non-Chinese variants. Therefore, we should handle this appropriately to exclude eSIM support in the IN variant.",
       "revId": "682b524a0290a477d239f8f25185e57b0d7aab87",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f3da52af_01e4023e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-10-28T08:50:00Z",
+      "side": 1,
+      "message": "Also for salami and dodge?",
+      "parentUuid": "91a832bd_2c7ba20e",
+      "revId": "682b524a0290a477d239f8f25185e57b0d7aab87",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
