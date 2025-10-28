@@ -34,6 +34,24 @@
       "parentUuid": "91a832bd_2c7ba20e",
       "revId": "682b524a0290a477d239f8f25185e57b0d7aab87",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "16d63b67_8e9724f0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-10-28T08:52:42Z",
+      "side": 1,
+      "message": "salami and waffle IN variants don\u0027t support eSIM, but dodge does",
+      "parentUuid": "f3da52af_01e4023e",
+      "revId": "682b524a0290a477d239f8f25185e57b0d7aab87",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
