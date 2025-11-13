@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 12 (CPH2581_15.0.0.863(EX01)).
+## are from OnePlus 12 (CPH2581_16.0.0.201(EX01)).
 
 # Current blobs with deps disabled:
 # com.oplus.node.mvgsat, com.oplus.node.sstabphoto, com.qti.node.dewarp, com.qti.chi.override, libcamximageformatutils, libchifeature2 depends on multiple versions of the same aidl_interface: android.hardware.graphics.allocator-V1-ndk, android.hardware.graphics.allocator-V2-ndk-source
@@ -91,6 +91,27 @@ odm/etc/camera/asd/class.dlc
 odm/etc/camera/asd/detect.dlc
 odm/etc/camera/asd/v204_class.dlc
 odm/etc/camera/ashdr/ncf_pack.ncf
+odm/etc/camera/basictone/lmt/lmt/BaseLut
+odm/etc/camera/basictone/lmt/lmt/CWCM32Lut0
+odm/etc/camera/basictone/lmt/lmt/CWCM32Lut1
+odm/etc/camera/basictone/lmt/lmt/CWCM32Lut2
+odm/etc/camera/basictone/lmt/lmt/CWCM32Lut3
+odm/etc/camera/basictone/lmt/lmt/CWCM32Lut4
+odm/etc/camera/basictone/lmt/lmt/CWCM32Lut5
+odm/etc/camera/basictone/lmt/lmt/CWCM32Lut6
+odm/etc/camera/basictone/lmt/lmt/CWCM32Lut7
+odm/etc/camera/basictone/lmt/lmt/CWCM32Lut8
+odm/etc/camera/basictone/lmt/lmt/LMTLut0
+odm/etc/camera/basictone/lmt/lmt/LMTLut1
+odm/etc/camera/basictone/lmt/lmt/SC32Lut0
+odm/etc/camera/basictone/lmt/lmt/SC32Lut1
+odm/etc/camera/basictone/lmt/lmt/SC32Lut2
+odm/etc/camera/basictone/lmt/lmt/SC32Lut3
+odm/etc/camera/basictone/lmt/lmt/SC32Lut4
+odm/etc/camera/basictone/lmt/lmt/SC32Lut5
+odm/etc/camera/basictone/lmt/lmt/SC32Lut6
+odm/etc/camera/basictone/lmt/lmt/SC32Lut7
+odm/etc/camera/basictone/lmt/lmt/SC32Lut8
 odm/etc/camera/basictone/lmt/lmt/SCLut0
 odm/etc/camera/basictone/lmt/lmt/SCLut1
 odm/etc/camera/basictone/lmt/lmt/SCLut2
@@ -100,6 +121,27 @@ odm/etc/camera/basictone/lmt/lmt/SCLut5
 odm/etc/camera/basictone/lmt/lmt/SCLut6
 odm/etc/camera/basictone/lmt/lmt/SCLut7
 odm/etc/camera/basictone/lmt/lmt/SCLut8
+odm/etc/camera/basictone/lmt/BaseLut
+odm/etc/camera/basictone/lmt/CWCM32Lut0
+odm/etc/camera/basictone/lmt/CWCM32Lut1
+odm/etc/camera/basictone/lmt/CWCM32Lut2
+odm/etc/camera/basictone/lmt/CWCM32Lut3
+odm/etc/camera/basictone/lmt/CWCM32Lut4
+odm/etc/camera/basictone/lmt/CWCM32Lut5
+odm/etc/camera/basictone/lmt/CWCM32Lut6
+odm/etc/camera/basictone/lmt/CWCM32Lut7
+odm/etc/camera/basictone/lmt/CWCM32Lut8
+odm/etc/camera/basictone/lmt/LMTLut0
+odm/etc/camera/basictone/lmt/LMTLut1
+odm/etc/camera/basictone/lmt/SC32Lut0
+odm/etc/camera/basictone/lmt/SC32Lut1
+odm/etc/camera/basictone/lmt/SC32Lut2
+odm/etc/camera/basictone/lmt/SC32Lut3
+odm/etc/camera/basictone/lmt/SC32Lut4
+odm/etc/camera/basictone/lmt/SC32Lut5
+odm/etc/camera/basictone/lmt/SC32Lut6
+odm/etc/camera/basictone/lmt/SC32Lut7
+odm/etc/camera/basictone/lmt/SC32Lut8
 odm/etc/camera/basictone/lmt/SCLut0
 odm/etc/camera/basictone/lmt/SCLut1
 odm/etc/camera/basictone/lmt/SCLut2
@@ -112,9 +154,15 @@ odm/etc/camera/basictone/lmt/SCLut8
 odm/etc/camera/basictone/setting/setting/Ditherout
 odm/etc/camera/basictone/setting/setting/FromXml
 odm/etc/camera/basictone/setting/setting/SimTool.ini
+odm/etc/camera/basictone/setting/setting/SimTool_Dolby.ini
+odm/etc/camera/basictone/setting/setting/SimTool_Master.ini
+odm/etc/camera/basictone/setting/setting/TriggerBIN
 odm/etc/camera/basictone/setting/Ditherout
 odm/etc/camera/basictone/setting/FromXml
 odm/etc/camera/basictone/setting/SimTool.ini
+odm/etc/camera/basictone/setting/SimTool_Dolby.ini
+odm/etc/camera/basictone/setting/SimTool_Master.ini
+odm/etc/camera/basictone/setting/TriggerBIN
 odm/etc/camera/basictone/vig/vig/VigTab_Main
 odm/etc/camera/basictone/vig/vig/VigTab_Tele
 odm/etc/camera/basictone/vig/vig/VigTab_UTele
@@ -648,7 +696,10 @@ odm/etc/camera/meishe_lut/Texture-70.cube.rgb.bin
 odm/etc/camera/meishe_lut/White.cube.rgb.bin
 odm/etc/camera/meishe_lut/black_gold.bin
 odm/etc/camera/meishe_lut/blackandwhite.cube.rgb.bin
+odm/etc/camera/meishe_lut/blackandwhite_0.cube.rgb.bin
+odm/etc/camera/meishe_lut/blackandwhite_1.cube.rgb.bin
 odm/etc/camera/meishe_lut/bright_coloured.bin
+odm/etc/camera/meishe_lut/city.cube.rgb.bin
 odm/etc/camera/meishe_lut/cola.bin
 odm/etc/camera/meishe_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin
 odm/etc/camera/meishe_lut/drjw1994.bin
@@ -676,13 +727,17 @@ odm/etc/camera/meishe_lut/gt-old-times.cube.rgb.bin
 odm/etc/camera/meishe_lut/gt-quietly-ele.cube.rgb.bin
 odm/etc/camera/meishe_lut/gt-steaming.cube.rgb.bin
 odm/etc/camera/meishe_lut/interstellar_space.bin
+odm/etc/camera/meishe_lut/island.cube.rgb.bin
 odm/etc/camera/meishe_lut/jw_sun.CUBE.rgb.bin
 odm/etc/camera/meishe_lut/jw_surprise.CUBE.rgb.bin
 odm/etc/camera/meishe_lut/kodak.cube.rgb.bin
 odm/etc/camera/meishe_lut/meicam.child.bin
 odm/etc/camera/meishe_lut/mono.cube.rgb.bin
+odm/etc/camera/meishe_lut/mono_0.cube.rgb.bin
+odm/etc/camera/meishe_lut/mono_1.cube.rgb.bin
 odm/etc/camera/meishe_lut/morandi.cube.rgb.bin
 odm/etc/camera/meishe_lut/morning.dream.cube.rgb.bin
+odm/etc/camera/meishe_lut/mountains.cube.rgb.bin
 odm/etc/camera/meishe_lut/natural.cube.rgb.bin
 odm/etc/camera/meishe_lut/neon-2020.cube.rgb.bin
 odm/etc/camera/meishe_lut/nostalgic.scene.cube.rgb.bin
@@ -1243,6 +1298,7 @@ odm/etc/camera/settings_fdc_lite.txt
 odm/etc/camera/tele_inv_mapxy_33x25.bin
 odm/etc/camera/tele_mapxy_33x25.bin
 odm/etc/camera/text_enhance_yuv_v1.tflite
+odm/etc/camera/v10_vamm_sig_norm_0408_8143_SIM.bin
 odm/etc/camera/wide_inv_padding_mapxy_33x25.bin
 odm/etc/camera/wide_padding_mapxy_33x25.bin
 odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc
@@ -1312,6 +1368,7 @@ odm/lib64/libCOppLceTonemapAPI.so
 odm/lib64/libCS.so
 odm/lib64/libCaptureBokeh.so
 odm/lib64/libDeVIS.so
+odm/lib64/libDocRectification.so
 odm/lib64/libEIS.so
 odm/lib64/libEISLive.so
 odm/lib64/libFDClite.so
@@ -1370,6 +1427,7 @@ odm/lib64/libaisd.so
 odm/lib64/libaiseg.so
 odm/lib64/libaisr.so
 odm/lib64/libalCFR.so
+odm/lib64/libalog.so
 odm/lib64/libancbase_rt_fusion.so;FIX_SONAME
 odm/lib64/libancbase_segbase.so
 odm/lib64/libancbase_segment.so
@@ -1408,6 +1466,7 @@ odm/lib64/libarcsoft_quad_super_resolution_raw_func.so
 odm/lib64/libarcsoft_scbokeh_video.so
 odm/lib64/libarcsoft_smart_denoise.so
 odm/lib64/libarcsoft_smart_denoise_v4.so
+odm/lib64/libarcsoft_tfm.so
 odm/lib64/libarcsoft_triple_sat.so
 odm/lib64/libarcsoft_triple_zoomtranslator.so
 odm/lib64/libarcsoft_turbo_fusion_raw_portrait_super_night.so
