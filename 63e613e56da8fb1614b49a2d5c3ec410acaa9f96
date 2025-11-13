@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2d954678_a81bfa90",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-11-13T20:42:24Z",
+      "side": 1,
+      "message": "I will go back to EU once the build is released. Until then, I will continue using IN, at least for the bring-up phase",
+      "revId": "63e613e56da8fb1614b49a2d5c3ec410acaa9f96",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
