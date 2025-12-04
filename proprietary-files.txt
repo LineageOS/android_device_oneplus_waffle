@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 12 (CPH2581_16.0.0.201(EX01)).
+## are from OnePlus 12 (CPH2581_16.0.1.300(EX01)).
 
 # Current blobs with deps disabled:
 # com.oplus.node.mvgsat, com.oplus.node.sstabphoto, com.qti.node.dewarp, com.qti.chi.override, libcamximageformatutils, libchifeature2 depends on multiple versions of the same aidl_interface: android.hardware.graphics.allocator-V1-ndk, android.hardware.graphics.allocator-V2-ndk-source
@@ -1513,6 +1513,8 @@ odm/lib64/libarcsoft_videoautozoom.so;FIX_SONAME
 odm/lib64/libc++_shared.so
 odm/lib64/libcalculator.so
 odm/lib64/libcalculator_htp.so
+odm/lib64/libcreateFDCLitecachebin.so
+odm/lib64/libcreateFDCcachebin.so
 odm/lib64/libcreatebin.so
 odm/lib64/libcvface_api.so
 odm/lib64/libdualcam_optical_zoom_control.so
