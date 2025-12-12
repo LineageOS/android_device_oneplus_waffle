@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f56a95d6_5a10363e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-12T19:02:17Z",
+      "side": 1,
+      "message": "If you do this, you should disable HBM in LiveDisplay, just like we did on sm8750.",
+      "revId": "33a59423ebed795555e2931001536c0b0e009743",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": []
 }
