@@ -60,7 +60,8 @@ PRODUCT_COPY_FILES += $(foreach f,$(REGIONAL_PROP_FILES), \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    hardware/pixelworks/interfaces
 
 # Telephony
 PRODUCT_PACKAGES += \
