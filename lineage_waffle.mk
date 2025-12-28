@@ -18,14 +18,14 @@ PRODUCT_NAME := lineage_waffle
 PRODUCT_DEVICE := waffle
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := CPH2581
+PRODUCT_MODEL := CPH2573
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="qssi_64-user 16 BP2A.250605.015 1763388908922 release-keys" \
-    BuildFingerprint=OnePlus/CPH2581EEA/OP595DL1:16/BP2A.250605.015/U.R4T3.4ab7733-29b231b-29b231a:user/release-keys \
+    BuildDesc="qssi_64-user 16 BP2A.250605.015 1765939201848 release-keys" \
+    BuildFingerprint=OnePlus/CPH2573IN/OP595DL1:16/BP2A.250605.015/U.R4T3.ae5f8c_16a4753_16ae86f:user/release-keys \
     DeviceName=OP595DL1 \
-    DeviceProduct=CPH2581 \
+    DeviceProduct=CPH2573 \
     SystemDevice=OP595DL1 \
-    SystemName=CPH2581
+    SystemName=CPH2573

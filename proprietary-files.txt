@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 12 (CPH2581_16.0.1.300(EX01)).
+## are from OnePlus 12 (CPH2573_16.0.2.400(EX01)).
 
 # Current blobs with deps disabled:
 # com.oplus.node.mvgsat, com.oplus.node.sstabphoto, com.qti.node.dewarp, com.qti.chi.override, libcamximageformatutils, libchifeature2 depends on multiple versions of the same aidl_interface: android.hardware.graphics.allocator-V1-ndk, android.hardware.graphics.allocator-V2-ndk-source
@@ -712,6 +712,9 @@ odm/etc/camera/gesture/tt_hand_det_v11.0.model
 odm/etc/camera/gesture/tt_hand_gesture_v11.1.model
 odm/etc/camera/gesture/tt_hand_kp_v6.0.model
 odm/etc/camera/gesture/tt_hand_lr_v3.0.model
+odm/etc/camera/meishe_lut/800t_blues.bin
+odm/etc/camera/meishe_lut/800t_hdr.bin
+odm/etc/camera/meishe_lut/800t_sdr.bin
 odm/etc/camera/meishe_lut/ByYo3If
 odm/etc/camera/meishe_lut/Cold.cube.rgb.bin
 odm/etc/camera/meishe_lut/DL_A_MoneyBall.bin
@@ -1331,7 +1334,6 @@ odm/etc/camera/settings_fdc_lite.txt
 odm/etc/camera/tele_inv_mapxy_33x25.bin
 odm/etc/camera/tele_mapxy_33x25.bin
 odm/etc/camera/text_enhance_yuv_v1.tflite
-odm/etc/camera/v10_vamm_sig_norm_0408_8143_SIM.bin
 odm/etc/camera/wide_inv_padding_mapxy_33x25.bin
 odm/etc/camera/wide_padding_mapxy_33x25.bin
 odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc
@@ -1401,7 +1403,6 @@ odm/lib64/libCOppLceTonemapAPI.so
 odm/lib64/libCS.so
 odm/lib64/libCaptureBokeh.so
 odm/lib64/libDeVIS.so
-odm/lib64/libDocRectification.so
 odm/lib64/libEIS.so
 odm/lib64/libEISLive.so
 odm/lib64/libFDClite.so
