@@ -16,6 +16,24 @@
       "message": "No new files like dodge?",
       "revId": "ebb33687223bd4a05c9aa7e2dc0894b48682b959",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8b44ff21_0ca60006",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2026-01-22T09:39:12Z",
+      "side": 0,
+      "message": "No new files added. The only change here is the oplus charger version bump.",
+      "parentUuid": "f629fe12_173e69aa",
+      "revId": "ebb33687223bd4a05c9aa7e2dc0894b48682b959",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
