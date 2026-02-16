@@ -96,6 +96,8 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
     'vendor/lib64/libcwb_qcom_aidl.so': blob_fixup()
         .add_needed('libui_shim.so'),
+    ('vendor/lib64/libcwb_qcom_aidl.so', 'vendor/lib64/libpwirishalwrapper.so', 'odm/lib64/libpwirishalwrapper.so'): blob_fixup()
+        .replace_needed('android.hardware.graphics.composer3-V2-ndk.so', 'android.hardware.graphics.composer3-V3-ndk.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
