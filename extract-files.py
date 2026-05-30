@@ -42,8 +42,6 @@ lib_fixups: lib_fixups_user_type = {
         'libpwirishalwrapper',
         'libtriplecam_optical_zoom_control',
         'libtriplecam_video_optical_zoom',
-        'vendor.oplus.hardware.camera_rfi-V1-ndk',
-        'vendor.oplus.hardware.cammidasservice-V1-ndk',
         'vendor.oplus.hardware.displaycolorfeature-V1-ndk',
         'vendor.pixelworks.hardware.display-V2-ndk',
         'vendor.pixelworks.hardware.display@1.0',
