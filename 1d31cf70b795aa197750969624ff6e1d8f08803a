@@ -16,6 +16,23 @@
       "message": "Can you regen vendor and merge? I have merged hw/oplus chain already.",
       "revId": "1d31cf70b795aa197750969624ff6e1d8f08803a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8265e62e_11d73e99",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2026-06-20T17:30:41Z",
+      "side": 1,
+      "message": "Sure",
+      "revId": "1d31cf70b795aa197750969624ff6e1d8f08803a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
