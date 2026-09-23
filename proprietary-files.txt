@@ -723,7 +723,6 @@ odm/bin/cwb_utils_aidl
 odm/etc/init/hw/init.oplus.display.rc
 odm/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc
 odm/etc/vintf/manifest/manifest_displaycolorfeature_aidl.xml
-odm/etc/vintf/manifest/manifest_oplus_cwb_aidl.xml
 odm/etc/vintf/manifest/manifest_oplus_displaypanelfeature_aidl.xml
 odm/etc/displaycolorfeaturecfg.xml
 odm/lib64/libdisplayaidlapis.so
@@ -734,7 +733,6 @@ vendor/etc/2024-01-12_platform_RSA_license_a226ad89-a187-4b14-9447-d20bfe9dac1a.
 vendor/etc/oem_51_prj_OppoLTM8650_1689712162019.pfm
 vendor/lib64/libPanelChaplin.so
 vendor/lib64/libcwb_client_vendor.so
-vendor/lib64/libcwb_qcom_aidl.so
 vendor/lib64/libdtlm.so
 
 # Display (Pixelworks firmware)
@@ -857,7 +855,6 @@ vendor/lib64/libdisplayskuutils.so
 vendor/lib64/libdpp_manager.so
 vendor/lib64/libdpps.so
 vendor/lib64/libgame_enhance.so
-vendor/lib64/libhwcsensor.so
 vendor/lib64/libintervmipc.so
 vendor/lib64/libqdcm-algo.so
 vendor/lib64/libqdcm-json-mode-parser.so
