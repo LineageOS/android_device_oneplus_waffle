@@ -1038,7 +1038,7 @@ odm/lib64/libdolbyclstc.so
 vendor/etc/dolby_vision.cfg
 
 # Media configs
-odm/etc/camera/media_profiles.xml
+odm/etc/camera/media_profiles.xml:vendor/etc/media_profiles_pineapple.xml;TRYSRCFIRST
 
 # Neural networks
 odm/lib64/libQnnCpu.so
