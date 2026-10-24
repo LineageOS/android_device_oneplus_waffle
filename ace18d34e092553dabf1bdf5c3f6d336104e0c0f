@@ -16,6 +16,23 @@
       "message": "we can keep overlays on common side. only blobs should be device side.",
       "revId": "ace18d34e092553dabf1bdf5c3f6d336104e0c0f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "31bceb96_e75a27a9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-10-24T16:04:01Z",
+      "side": 1,
+      "message": "This is the common change, why have you picked it to device?",
+      "revId": "ace18d34e092553dabf1bdf5c3f6d336104e0c0f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
