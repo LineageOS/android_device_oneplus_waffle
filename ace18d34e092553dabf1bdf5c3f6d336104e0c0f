@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "37b3728c_06c88377",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-24T16:02:37Z",
+      "side": 1,
+      "message": "we can keep overlays on common side. only blobs should be device side.",
+      "revId": "ace18d34e092553dabf1bdf5c3f6d336104e0c0f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
