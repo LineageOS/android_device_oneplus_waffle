@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "14044635_7a0a0ed9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35271
+      },
+      "writtenOn": "2026-10-26T02:47:54Z",
+      "side": 1,
+      "message": "Auto-brightness fluctuating in low-light conditions, The issue is more noticeable when lying down and looking at the screen. Increasing brightness above 30% seems to resolve it.",
+      "revId": "c15718c9c52fef06a8446ab9cd8afc4572d8abea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
