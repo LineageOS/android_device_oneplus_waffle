@@ -86,7 +86,13 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('android.frameworks.cameraservice.device-V1-ndk.so', 'android.frameworks.cameraservice.device-V3-ndk.so')
         .replace_needed('android.frameworks.cameraservice.service-V1-ndk.so', 'android.frameworks.cameraservice.service-V3-ndk.so'),
     'vendor/lib64/libcwb_qcom_aidl.so': blob_fixup()
-        .add_needed('libui_shim.so'),
+        .add_needed('libui_shim.so')
+        .replace_needed('android.hardware.graphics.composer3-V2-ndk.so', 'android.hardware.graphics.composer3-V3-ndk.so'),
+    (
+        'odm/lib64/libpwirishalwrapper.so',
+        'vendor/lib64/libpwirishalwrapper.so',
+    ): blob_fixup()
+        .replace_needed('android.hardware.graphics.composer3-V2-ndk.so', 'android.hardware.graphics.composer3-V3-ndk.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
