@@ -23,7 +23,8 @@ TARGET_SCREEN_WIDTH := 1440
 
 # Display
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/display/displayconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946450791512195.xml
+    $(LOCAL_PATH)/configs/display/displayconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946450791512195.xml \
+    $(LOCAL_PATH)/configs/display/sdm_display_resolution_extn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/sdm_display_resolution_extn.xml
 
 $(call soong_config_set_bool,qtidisplay,legacy_cwb_config,true)
 $(call soong_config_set,qtidisplay,pxlw_sm8650_vendor_namespace,vendor/oneplus/waffle)
