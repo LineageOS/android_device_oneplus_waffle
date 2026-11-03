@@ -16,6 +16,24 @@
       "message": "How did you recalibrate this? I have been meaning to do that same on salami.",
       "revId": "ae9e27613cc02a2b96e94d1eb989505246274e45",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a4c4d7e6_3d202cb2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2026-11-03T16:30:42Z",
+      "side": 1,
+      "message": "tuned it by eye tbh. turned off auto brightness, then checked the screen at 1/4, 1/2, 3/4 and full brightness when the FOD icon shows up to see if it got brighter, darker or stayed the same. wherever it got brighter i bumped the alpha up, then just interpolated the points in between",
+      "parentUuid": "ca95a3bf_8c6c87bd",
+      "revId": "ae9e27613cc02a2b96e94d1eb989505246274e45",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
