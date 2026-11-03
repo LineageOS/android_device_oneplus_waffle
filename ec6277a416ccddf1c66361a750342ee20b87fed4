@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c4bf2f0a_4b626b6b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-11-03T16:23:58Z",
+      "side": 1,
+      "message": "It it worth patching 100+ blobs because of this? 😟",
+      "revId": "ec6277a416ccddf1c66361a750342ee20b87fed4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
