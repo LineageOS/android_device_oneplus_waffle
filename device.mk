@@ -17,6 +17,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     $(LOCAL_PATH)/configs/audio/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml
 
+$(call soong_config_set,qtiaudio,adsp_lib_directory_path,/odm/lib/rfsa/adsp)
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 3216
 TARGET_SCREEN_WIDTH := 1440
