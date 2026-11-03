@@ -157,7 +157,7 @@ vendor/lib64/libcamxexternalformatutils.so
 vendor/lib64/libcamxfdengine.so
 vendor/lib64/libcamxhwnodecontext.so
 vendor/lib64/libcamxifestriping.so
-vendor/lib64/libcamximageformatutils.so;DISABLE_DEPS
+vendor/lib64/libcamximageformatutils.so
 vendor/lib64/libcamxjson.so
 vendor/lib64/libcamxncsdatafactory.so
 vendor/lib64/libcamxqsatalgo.so
@@ -169,7 +169,7 @@ vendor/lib64/libcamxtintlessalgo.so
 
 # Camera (CHI)
 vendor/lib64/hw/com.qti.chi.offline.so
-vendor/lib64/hw/com.qti.chi.override.so;DISABLE_DEPS
+vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/com.qti.camx.chiiqutils.so
 vendor/lib64/com.qti.chiusecaseselector.so
 vendor/lib64/com.qti.feature2.afbrckt.so
@@ -204,7 +204,7 @@ vendor/lib64/com.qualcomm.mcx.linearmapper.so
 vendor/lib64/com.qualcomm.mcx.nonlinearmapper.so
 vendor/lib64/com.qualcomm.mcx.policy.mfl.so
 vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so
-vendor/lib64/libchifeature2.so;DISABLE_DEPS
+vendor/lib64/libchifeature2.so
 vendor/lib64/libchilog.so
 vendor/lib64/libcom.qti.chinodeutils.so
 vendor/lib64/libcommonchiutils.so
@@ -273,11 +273,11 @@ vendor/lib64/vendor.oplus.hardware.camera.aon-service-impl.so
 vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
 
 # Camera components
-odm/lib64/camera/components/com.oplus.node.mvgsat.so;DISABLE_DEPS
+odm/lib64/camera/components/com.oplus.node.mvgsat.so
 odm/lib64/camera/components/com.oplus.node.preview.so
 odm/lib64/camera/components/com.oplus.node.sstabdefer.so
 odm/lib64/camera/components/com.oplus.node.sstabgme.so
-odm/lib64/camera/components/com.oplus.node.sstabphoto.so;DISABLE_DEPS
+odm/lib64/camera/components/com.oplus.node.sstabphoto.so
 odm/lib64/camera/components/com.oplus.node.sstabrealt.so
 odm/lib64/camera/com.qti.sensor.imx581.so
 odm/lib64/camera/com.qti.sensor.imx615.so
@@ -298,7 +298,7 @@ vendor/lib64/camera/components/com.qti.node.aon.so
 vendor/lib64/camera/components/com.qti.node.customhwnode.so
 vendor/lib64/camera/components/com.qti.node.depth.so
 vendor/lib64/camera/components/com.qti.node.depthprovider.so
-vendor/lib64/camera/components/com.qti.node.dewarp.so;DISABLE_DEPS
+vendor/lib64/camera/components/com.qti.node.dewarp.so
 vendor/lib64/camera/components/com.qti.node.dummydepth.so
 vendor/lib64/camera/components/com.qti.node.dummyrtb.so
 vendor/lib64/camera/components/com.qti.node.dummysat.so
