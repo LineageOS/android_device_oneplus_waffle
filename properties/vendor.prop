@@ -1,6 +1,9 @@
 # Bluetooth
 bluetooth.device.default_name=OnePlus 12
 
+# Display
+vendor.display.aspect_ratio_threshold=1
+
 # Graphics
 debug.sf.auto_latch_unsignaled=1
 ro.surface_flinger.set_display_power_timer_ms=1000
