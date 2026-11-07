@@ -34,6 +34,24 @@
       "parentUuid": "ca95a3bf_8c6c87bd",
       "revId": "ae9e27613cc02a2b96e94d1eb989505246274e45",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "920af9dc_a0ad46e2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2026-11-07T09:08:01Z",
+      "side": 1,
+      "message": "ps2 uses the stock formula. Stock computes the dim alpha from the panel nits as `alpha \u003d 1 - (nits / hbm)^(1 / gamma)`, where:\n\nnits for each brightness level come from `display_brightness_config_\u003cpanel\u003e.xml`\nhbm and gamma are fitted from the OplusFingerPrint nits/alpha curve in `multimedia_display_feature_config.xml` (~870 nits, 2.2)\n\nOn los, the stock values still left the lockscreen too bright, so I refit hbm and gamma by matching the lockscreen to the home screen at two brightness levels (~1215 nits, 1.96). A third level matched without any changes.",
+      "parentUuid": "a4c4d7e6_3d202cb2",
+      "revId": "ae9e27613cc02a2b96e94d1eb989505246274e45",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
