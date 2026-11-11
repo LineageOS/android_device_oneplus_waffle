@@ -16,6 +16,24 @@
       "message": "Didn\u0027t you remove dates from copyrights?",
       "revId": "dd197c12a3e5906c1785011a121ab3a8b5a5fefd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "32712aab_b9b81105",
+        "filename": "configs/display/sdm_display_resolution_extn.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2026-11-11T06:01:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f7fd6232_b940dbe3",
+      "revId": "dd197c12a3e5906c1785011a121ab3a8b5a5fefd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
